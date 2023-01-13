@@ -17,6 +17,16 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  list-style: none;
+}
 
 .description a {
   display: flex;
@@ -34,11 +44,13 @@
   border-radius: var(--border-radius);
 }
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
