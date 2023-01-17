@@ -35,7 +35,6 @@
   }
   
   .button {
-    background-color: var(--text-purple);
     cursor: pointer;
     color: white;
     outline: 0;
@@ -98,6 +97,7 @@
       line-height: 1.75rem /* 28px */;
       padding-left: 2.5rem /* 40px */;
       padding-right: 2.5rem /* 40px */;
+      background: #000;
     }
   }
   
